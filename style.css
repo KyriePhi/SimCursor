@@ -1,0 +1,34 @@
+body{
+    margin:0px;
+}
+#canv{
+    display: block;
+    background-color: darkred;
+}
+.star{
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(icons8-star-48.gif);
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+#signature{
+    width: 500px;
+    margin: auto;
+    height: 30px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#signature a{
+    text-decoration: none;
+    color: white;
+}
+#signature a:hover{
+    color: green;
+}
